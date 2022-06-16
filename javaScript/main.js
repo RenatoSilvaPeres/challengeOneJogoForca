@@ -159,16 +159,13 @@ function novoJogo (){
 function colocaTelaInicio (){
 	telaJogo.classList.add ("mudaTela");
 	telaInicio.classList.remove("mudaTela");
-	header.classList.remove ("mudaTela");
-	footer.classList.remove ("mudaTela");
 	telaAddPalavra.classList.add("mudaTela");
 }
 function colocaTelaJogo (){
 	telaJogo.classList.remove ("mudaTela");
 	telaAddPalavra.classList.add("mudaTela");
 	telaInicio.classList.add("mudaTela");
-	header.classList.add ("mudaTela");
-	footer.classList.add ("mudaTela");
+	
 }
 function colocaTelaAddPalavra(){
 	telaInicio.classList.add("mudaTela");
