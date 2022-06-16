@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-6">
+		<link rel="stylesheet" href="estilo.css">
+		<title> Jogo da forca </title>
+		<meta name="viewport" content="width=device-width initial-scale=1">
+	</head>
+	<body>
+		<main>
+			<div class="popup-container" id="popup-container">
+				<div class="popup-content">
+					<h2 class="texto-popup" id="texto-popup"></h2>
+				</div>
+			</div>
+				<section class="tela-jogo mudaTela">
+					<div class="flex-container2">
+						<div class="fundo-erro"></div>
+					</div>
+					<div class="flex-container3">
+						<div class="item-1">
+							<img class="chama " src="./imagens/chama.gif" alt="">
+						</div>
+						<div class="item-2">
+							<img class="chama1 " src="./imagens/chama.gif" alt="">
+						</div>
+						<div class="item-3">
+							<img class="chama2 " src="./imagens/chama.gif" alt="">
+						</div>
+					</div>
+					<div class="avisos mudaTela"><h1 class="texto-avisos">Você perdeu!</h1></div>
+					<div class="flex-container" id="flex-container"></div>
+					<div class="area-botoes">
+						<button class="botao">novo jogo</button>
+						<button class="desistir">desistir </button>
+					</div>
+					<div class="input-celular">
+						<input type="text" class="teclado-celular" maxlength="1" placeholder="Digite 1 letra...">
+						<button class="botao-letra-celular">ok</button>
+					</div>
+				</section>
+				
+				<section class="tela-inicio">
+					
+					<div class="titulo">
+						<div class="chama-esquerda"><img class="chama1 " src="./imagens/chama.gif" alt=""></div>
+						
+						<div class="texto-titulo"></div>
+						<div class="chama-direira"><img class="chama2 " src="./imagens/chama.gif" alt=""></div>
+					</div>
+					<div class="pagina-inicial">
+						
+						<button class="newGame">Iniciar</button>
+						<button class="inserirPalavra"> Adicionar palavra </button>
+					</div>
+				</section>
+
+				<section class="tela-add-palavra mudaTela">
+					
+					<div class="titulo">
+						<div class="chama-esquerda"><img class="chama1 " src="./imagens/chama.gif" alt=""></div>
+					
+						<div class="texto-titulo"></div>
+						<div class="chama-direira"><img class="chama2 " src="./imagens/chama.gif" alt=""></div>
+					</div>
+					<div class="addPalavra">
+						<input type="text" class="campo-texto" placeholder="Digite 1 palavra...">
+						
+						<button class="add">Adicionar</button>
+						<button class="voltar">Voltar</button>
+					</div>
+				</section>
+
+				<footer></footer>
+			
+		</main>
+
+
+		<script src="./javaScript/main.js" type="text/javascript"></script>
+	</body>
+
+
+
+
+
+</html>
+
+

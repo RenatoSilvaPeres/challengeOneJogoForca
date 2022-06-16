@@ -1,0 +1,513 @@
+body{
+	margin: 0;
+	
+}
+
+.popup-container{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(61, 129, 216, 0.5);
+	padding-top: 300px;
+	
+	
+}
+.listaDePalavras{
+	background: linear-gradient(#3579b1,#49a1e9);
+	border-radius: 5px;
+	border: outset #49a1e9;
+	text-align: center;
+	color: rgb(66, 252, 255);
+	text-shadow: 3px 3px rgb(9, 52, 121);
+}
+.popup-content{
+	background: linear-gradient(#3579b1,#49a1e9);
+	height: 200px;
+	width: 80%;
+	margin: -90px auto;
+	box-shadow: 12px 12px  10px black;
+	border-radius: 5px;
+	border: outset #49a1e9;
+	font-size: 2em;
+	text-align: center;
+	color: rgb(66, 252, 255);
+	text-shadow: 3px 3px rgb(9, 52, 121);;
+	
+}
+.pagina-inicial, .addPalavra{
+	display: flex;
+	width: 100%;
+	height: 37em;
+	flex-direction: column;
+	
+	align-items: center;
+	background-image: url("./imagens/chama-imagem5.png");
+	background-size: cover;
+	
+	
+}
+
+.newGame,.inserirPalavra{
+	margin-top: 2em;
+}
+footer {
+	background: red;
+	height: 120px;
+	background-image: url("./imagens/areaBotao2.png");
+	background-size: cover;
+	width: 100%;
+}
+.mudaTela{
+	display: none;
+}
+.displayFlex{
+	display: flex;
+}
+body{
+	background:rgb(3, 13, 76) ;
+}
+.chama, .chama1, .chama2{
+	width: 15em;
+
+}
+.titulo{
+	background: black;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.gif-class{
+	margin-left: 80em;
+	animation: corre 3s ease-in-out 1;
+}
+.flex-container{
+	display: flex;
+	width: 100%;
+	height: 500px;
+	background-image: url("./imagens/chama-imagem5.png");
+	
+	background-repeat:no-repeat;
+
+	flex-direction: row;
+	align-items:flex-end;
+	
+}
+.avisos{
+	background: blue;
+	height: 200px;
+	width: 100%;
+	position: absolute;
+	background-image: url("./imagens/fundoErro.png");
+	
+	align-items: center;
+	justify-content: center;
+}
+.texto-avisos{
+	text-transform: uppercase;
+	color: burlywood;
+	text-shadow: 5px 5px black;
+	
+	
+
+}
+.flex-container2{
+	background: black;
+	display: flex;
+	justify-content: right;
+}
+.fundo-erro{
+	
+	display: flex;
+	border-radius: 10px;
+	width: 38%;
+	height: 100px;
+	
+	
+	flex-direction: row-reverse;
+	justify-content: right;
+	align-items:center;
+
+}
+.flex-container3{
+	width: 100%;
+	display: flex;
+	background: black;
+	justify-content: space-between;
+}
+.estiloLetras {
+	font-size: 0.8em;
+	width: 8em;
+	border-radius: 10px;
+	box-shadow: 0px 5px rgb(248, 187, 80);
+	border-bottom:5px solid rgb(255, 255, 93);
+	color: rgb(255, 216, 89);
+	
+	margin-left: 20px;
+	margin-bottom: 50px;
+	
+	
+}
+
+.animacaoAcerto {
+	background-image: url("./imagens/fundoLetraacerto.png");
+	background-size: cover;
+	animation: anima 1s ease-in-out 1, certo 3s ease-in-out infinite 1s;
+	position: static;
+
+}
+
+.texto-titulo{
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.erro{
+	
+	width: 1em;
+	background-image: url("./imagens/fundoLetra.png");
+	background-size: cover;
+	color: rgb(255, 216, 89);
+	text-shadow: 3px 2px rgb(39, 30, 0);
+	border-radius: 10px;
+	margin-right: 20px;
+	
+	animation: letraErro 2s ease-in-out 1, roda 5s ease-in-out 2s infinite;
+	
+
+}
+.estiloTitulo{
+	width: 1em;
+	background-image: url("./imagens/fundoLetra.png");
+	background-size: cover;
+	color: rgb(255, 216, 89);
+	text-shadow: 3px 2px rgb(39, 30, 0);
+	border-radius: 10px;
+	
+	
+	animation:  roda 5s ease-in-out  infinite;
+}
+.esconde{
+	color: transparent;
+	position: absolute;
+	top: 0;
+	
+}
+.area-botoes{
+	display: flex;
+	width: 100%;
+	height: 110px;
+	background-image: url("./imagens/areaBotao2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	justify-content: center;
+	align-items: center;
+}
+.input-celular{
+	display: none;
+}
+.botao,.desistir,.newGame,.inserirPalavra, .add, .voltar,.botao-letra-celular{
+	position: relative;
+	padding: 10px 40px;
+	margin: 60px 50px 10px 0px;
+	float: left;
+	border-radius: 3px;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(66, 252, 255);
+	text-decoration: none;
+	background-color: #2e85cc;
+	border: none;
+	border-bottom: 5px solid #165baa;
+	text-shadow: 0px 2px #064f76;
+	-webkit-transition: all 0.1s;
+	transition: all 0.1s;
+	text-transform: uppercase;
+ }
+ .desistir{
+	 padding-left: 55px;
+	 padding-right: 55px;
+ }
+ .botao:active,.desistir:active, .newGame:active,.inserirPalavra:active, .voltar:active,  .add:active, .botao-letra-celular:active {
+	-webkit-transform: translate(0px,5px);
+	-ms-transform: translate(0px,5px);
+	transform: translate(0px,5px);
+	border-bottom: 1px solid #165baa;
+	cursor: pointer;
+ }
+ .newGame,.inserirPalavra, .voltar, .add, .campo-texto{
+	 width: 30%;
+	 height: 10%;
+ }
+.campo-texto{
+	padding: 0;
+	padding-left: 5px;
+	margin: 0px 50px 0px 0px;
+	font-size: 2em;
+	border: outset 5px #165baa;
+	background: #cce8ff;
+	color: rgb(0, 0, 0);
+	text-shadow: 0px 1px #1395ff;
+	
+}
+h1::selection{
+	display: none;
+}
+h1{
+	font-size: 5em;
+	margin: 0;
+	text-align: center;
+}
+
+
+
+@keyframes letraErro {
+
+	0%{
+		position: absolute;
+		right: 50%;
+		top:50%;
+		font-size: 10em;
+		transform: rotate(360deg);
+		
+	}
+	10%{
+		position: absolute;
+		right: 50%;
+		top:50%;
+		font-size: 5em;
+	}
+	20%{
+		position: absolute;
+		right: 50%;
+		top:50%;
+		font-size: 8em;
+	}
+	25%{
+		position: absolute;
+		right: 50%;
+		top:50%;
+		font-size: 4em;
+	}
+	30%{
+		position: absolute;
+		right: 50%;
+		top:50%;
+		font-size: 6em;
+	}
+	33%{
+		position: absolute;
+		right: 50%;
+		top:50%;
+		font-size: 5em;
+	}
+	99% {
+		position: absolute;
+		
+		right: 0%;
+		top: 0%;
+	}
+	100%{
+		position: static;
+	}
+
+}
+@keyframes anima {
+	0%{
+		font-size: 0;
+		transform: rotate(360deg);
+	}
+	
+}
+@keyframes roda {
+	0%{
+			transform: rotate(0deg);
+			
+	}
+	5%{
+		
+	}
+	25%{
+			transform: rotate(35deg);
+			
+	}
+	40%{
+		
+	}
+	50%{
+		transform: rotate(0deg);
+		
+		
+	}
+
+	75%{
+		transform: rotate(-35deg);
+		
+	}
+	95%{
+		
+	}
+	100%{
+		transform: rotate(0deg);
+		
+	}
+}
+@keyframes corre {
+	0%{
+		margin-left: 0;
+	}
+	100%{
+		margin-left: 80em;
+	}
+}
+@keyframes certo {
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(15deg);}
+	50%{transform: rotate(0deg);}
+	75%{transform: rotate(-15deg);}
+	100%{transform: rotate(0deg);}
+}
+@keyframes animaTitulo {
+	0%{
+		position: absolute;
+		z-index: 10;
+		margin-top: 200px;
+		margin-right: 200px;
+		font-size: 10em;
+		transform: rotate(360deg);
+		
+	}
+	10%{
+		
+		font-size: 5em;
+	}
+	20%{
+		
+		font-size: 8em;
+	}
+	25%{
+		
+		font-size: 4em;
+	}
+	30%{
+		
+		font-size: 6em;
+	}
+	33%{
+		
+		font-size: 5em;
+	}
+	
+	100%{
+		margin-top: 0;
+	}
+
+}
+@media (max-width: 480px) {
+  .chama1, .chama2{
+		width: 200px;
+	}
+	.chama{
+		display: none;
+	}
+	.newGame,.inserirPalavra, .voltar, .add, .campo-texto{
+		width: 90%;
+		height: 10%;
+		margin: 20px auto;
+	}
+	.botao, .desistir{
+		font-size: 1em;
+		margin: 0 2px 0 0;
+	
+	}
+	.campo-texto{
+		font-size: 1em;
+	}
+	.estiloTitulo{
+		font-size: 2em;
+	}
+	.texto-titulo{
+		
+		width: 0;
+		
+	}
+	.fundo-erro{
+		position: absolute;
+		
+	}
+	.erro{
+		font-size: 3em;
+	}
+	.flex-container{
+		height: 480px;
+		align-items:flex-end;
+
+		
+	}
+	.estiloLetras{
+		font-size: 0.4em;
+		margin-left: 10px;
+		width: 5em;
+		
+	}
+	.animacaoAcerto {
+	
+		background-size: cover;
+		background-position: center;
+	
+	
+	}
+	.flex-container{
+		display: flex;
+		width: 100%;
+		height: 100px;
+		background-image: url("chama-imagem5.png");
+		background-position: bottom;
+		background-repeat:no-repeat;
+		background-size: 100%;
+	
+		flex-direction: row;
+		align-items:flex-end;
+		
+	}
+	body{
+		background: black;
+	}
+	.input-celular{
+		display: flex;
+		text-shadow: 0 1px #1395ff;
+		
+	}
+	.teclado-celular{
+	margin-left: 1.5em;
+	margin-top: 0.2em;
+	height: 25px;
+	font-size: 1em;
+	border: outset 5px #165baa;
+	background: #cce8ff;
+	color: rgb(0, 0, 0);
+	text-shadow: 0px 1px #1395ff;
+	}
+	.botao-letra-celular{
+		font-size: 1em;
+		margin: 0 0 0 1em;
+	}
+	.avisos{
+		position: absolute;
+		width: 100%;
+		height: 100px;
+		z-index: 5;
+		
+	}
+	.texto-avisos{
+		font-size: 2em;
+	}
+	.popup-content{
+		height: 100px;
+		font-size: 0.8em;
+	}
+}
